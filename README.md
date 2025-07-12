@@ -6,7 +6,8 @@ It uses the 'jsoncpp' package downloaded with Vcpkg (For more information about 
 
 Use the static library:
 
-```PowerShell
+You can download and install JsonCpp using the [vcpkg](https://github.com/Microsoft/vcpkg/) dependency manager:
+
 git clone https://github.com/Microsoft/vcpkg.git
 cd vcpkg
 ./bootstrap-vcpkg.sh
