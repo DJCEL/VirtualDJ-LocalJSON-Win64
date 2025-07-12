@@ -2,7 +2,7 @@
 # VirtualDJ-LocalJSON-Win64
 A VirtualDJ Online Source plugin for Windows 64-bit
 
-It uses the 'jsoncpp' package downloaded with Vcpkg (For more information about this package, please read https://github.com/open-source-parsers/jsoncpp ). We advise you to use the static library.
+It uses the 'jsoncpp' package downloaded with Vcpkg (For more information about this package, please read [jsoncpp](https://github.com/open-source-parsers/jsoncpp). We advise you to use the static library.
 
 You can download and install JsonCpp using the [vcpkg](https://github.com/Microsoft/vcpkg/) dependency manager:
 
