@@ -7,6 +7,6 @@ It uses the [JsonCpp](https://github.com/open-source-parsers/jsoncpp) package. Y
 ```powershell
 git clone https://github.com/Microsoft/vcpkg.git
 cd vcpkg
-./bootstrap-vcpkg.bat
-./vcpkg integrate install
-./vcpkg install jsoncpp:x64-windows-static
+.\bootstrap-vcpkg.bat
+.\vcpkg integrate install
+.\vcpkg install jsoncpp:x64-windows-static
