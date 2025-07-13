@@ -9,4 +9,6 @@ git clone https://github.com/Microsoft/vcpkg.git
 cd vcpkg
 .\bootstrap-vcpkg.bat
 .\vcpkg integrate install
+
+```powershell
 .\vcpkg install jsoncpp:x64-windows-static
