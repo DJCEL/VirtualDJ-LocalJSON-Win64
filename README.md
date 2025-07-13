@@ -4,7 +4,7 @@ A VirtualDJ Online Source plugin for Windows 64-bit
 
 It uses the [JsonCpp](https://github.com/open-source-parsers/jsoncpp) package. You can download and install it using the [vcpkg](https://github.com/Microsoft/vcpkg/) dependency manager.
 
-To install vcpkg for Visual Studio 2022:
+To install vcpkg for Visual Studio 2022 (if not done yet):
 ```powershell
 git clone https://github.com/Microsoft/vcpkg.git
 cd vcpkg
