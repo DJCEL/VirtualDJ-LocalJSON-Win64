@@ -12,4 +12,5 @@ cd vcpkg
 ```
 
 ```powershell
+cd vcpkg
 .\vcpkg install jsoncpp:x64-windows-static
