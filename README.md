@@ -17,7 +17,6 @@ vcpkg integrate install
 
 To install JsonCpp package (static library):
 ```powershell
-cd C:
-cd vcpkg
+cd C:\vcpkg
 vcpkg install jsoncpp:x64-windows-static
 ```
