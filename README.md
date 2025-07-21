@@ -6,14 +6,16 @@ It uses the [JsonCpp](https://github.com/open-source-parsers/jsoncpp) package. Y
 
 To install vcpkg for Visual Studio 2022 (if not done yet):
 ```powershell
+cd C:
 git clone https://github.com/Microsoft/vcpkg.git
 cd vcpkg
-.\bootstrap-vcpkg.bat
-.\vcpkg integrate install
+bootstrap-vcpkg.bat
+vcpkg integrate install
 ```
 
 To install JsonCpp package (static library):
 ```powershell
+cd C:
 cd vcpkg
-.\vcpkg install jsoncpp:x64-windows-static
+vcpkg install jsoncpp:x64-windows-static
 ```
