@@ -634,6 +634,7 @@ bool CLocalJSON::SaveFileTemplateLocalJSON()
 	json_song1["length"] = 0.0;
 	json_song1["bpm"] = 0.0;
 	json_song1["key"] = 0;
+	json_song1["year"] = 0;
 	json_song1["isVideo"] = false;
 	json_song1["isKaraoke"] = false;
 	
@@ -652,6 +653,7 @@ bool CLocalJSON::SaveFileTemplateLocalJSON()
 	json_song2["length"] = 0.0;
 	json_song2["bpm"] = 0.0;
 	json_song2["key"] = 0;
+	json_song2["year"] = 0;
 	json_song2["isVideo"] = false;
 	json_song2["isKaraoke"] = false;
 
