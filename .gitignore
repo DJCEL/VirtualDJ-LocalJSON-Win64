@@ -1,0 +1,7 @@
+######################
+# Visual Studio 2022 #
+######################
+/VS2022/.vs/
+/VS2022/Debug/
+/VS2022/Release/
+/src/Plugin.aps
