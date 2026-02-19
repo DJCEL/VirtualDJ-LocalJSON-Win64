@@ -454,6 +454,7 @@ bool CLocalJSON::LoadFileLocalJSON()
 	// TODO: to be replaced by the new way:  
 	// Json::CharReaderBuilder builder;
 	// const std::unique_ptr<Json::CharReader> json_reader(builder.newCharReader());
+	// JSONCPP_STRING jsonError;
 	Json::Value jsonData;
 	Json::Value jsonSong;
 	bool bRes = false;
@@ -678,5 +679,6 @@ void CLocalJSON::OpenFileLocalJSON()
 	if (DatabasePathFull == "") return;
 	ShellExecute(NULL, "open", DatabasePathFull.c_str(), NULL, NULL, SW_SHOWNORMAL);
 }
+
 
 
