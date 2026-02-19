@@ -450,7 +450,7 @@ bool CLocalJSON::LoadLocalDatabase()
 //------------------------------------------------------------------------------------------
 bool CLocalJSON::LoadFileLocalJSON()
 {
-	Json::Reader json_reader;
+	Json::Reader json_reader; // TODO: to be replaced by the new way:  Json::CharReaderBuilder builder;
 	Json::Value jsonData;
 	Json::Value jsonSong;
 	bool bRes = false;
@@ -675,3 +675,4 @@ void CLocalJSON::OpenFileLocalJSON()
 	if (DatabasePathFull == "") return;
 	ShellExecute(NULL, "open", DatabasePathFull.c_str(), NULL, NULL, SW_SHOWNORMAL);
 }
+
